@@ -3,6 +3,7 @@ extern crate rocket;
 
 mod home;
 mod routes;
+mod utils;
 
 #[launch]
 fn rocket() -> _ {
